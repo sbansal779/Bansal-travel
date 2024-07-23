@@ -18,7 +18,7 @@ function Testimonials() {
         <div className={Classes.testimonialBox}>
           <FontAwesomeIcon icon={faQuoteLeft} className={Classes.Icon} />
           <p>
-            Sumit travel has such a user-friendly website. Easy to navigate,
+            Bansal travel has such a user-friendly website. Easy to navigate,
             search and fiddle with dates instead of having to call up. Once
             decided, the booking process was swift and easy, thank you.
           </p>

@@ -13,7 +13,7 @@ function Footer() {
       <div className={Classes.footer}>
         <div className={Classes.socialLink}>
           <p>+8801305282768</p>
-          <p>Sumittravels@gmail.com</p>
+          <p>Bansaltravels@gmail.com</p>
           <a href="https://web.facebook.com/rahi680/">
             <img src={facebook} alt="" />
           </a>
@@ -29,7 +29,7 @@ function Footer() {
           <a href="#hero">
             <img src={footerLogo} alt="" />
             <p>
-              Sumit <span>Travels</span>
+              Bansal <span>Travels</span>
             </p>
           </a>
         </div>

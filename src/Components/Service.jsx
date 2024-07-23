@@ -37,9 +37,9 @@ function Service() {
 
   return (
     <section id="service" className={Classes.service}>
-      {data.map((item) => {
+      {data.map((item,index) => {
         return (
-          <div className={Classes.services}>
+          <div className={Classes.services} key={index}>
             <div className={Classes.icon}>
               <img src={item.icon} alt="" />
             </div>

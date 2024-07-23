@@ -88,9 +88,9 @@ function Recommendation() {
       </div>
 
       <div className="recommendationBox">
-        {data.map((item) => {
+        {data.map((item,index) => {
           return (
-            <div className="box">
+            <div className="box" key={index}>
               <div className="image">
                 <img src={item.image} alt="image" />
               </div>

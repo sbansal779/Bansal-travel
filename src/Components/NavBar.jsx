@@ -13,7 +13,7 @@ function NavBar() {
       <nav className={Classes.Navbar}>
         <div className={Classes.brand}>
           <h1 className={Classes.NavLogo}>
-            Samim <span>Travels</span>
+            Sumit <span>Travels</span>
           </h1>
 
           <div className={Classes.hamburger}>
@@ -50,7 +50,7 @@ function NavBar() {
           </li>
         </ul>
 
-        <button className={Classes.NavBtn}>connect</button>
+        <button className={Classes.NavBtn}>contact</button>
       </nav>
     </>
   );
